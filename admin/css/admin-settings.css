@@ -1,0 +1,20 @@
+/* Styles for the Simple Cookie GDPR Plugin admin settings */
+.cookieField {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.cookieField input[type="text"],
+.cookieField textarea {
+    margin-right: 10px;
+    flex-grow: 1;
+}
+
+.cookieField textarea {
+    resize: vertical; /* Allow resizing only vertically */
+}
+
+#addMoreCookies {
+    margin-top: 10px;
+}
